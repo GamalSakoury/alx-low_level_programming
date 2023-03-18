@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * Description:  - using printf instead of puts to print a string
- * Return:  0 (success)
+ * main - A program using printf instead of puts to print a string
+ * Return: 0 (Success)
  */
 int main(void)
 {
