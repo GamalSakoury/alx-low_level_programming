@@ -7,7 +7,7 @@
  * checking if it is greater than 5 then it is greater
  * otherwise it is equal zero then it is 0
  * otherwise it is less than 6 and not 0
- * Return : 0 (Success)
+ * return : 0 (Success)
  */
 int main(void)
 {
