@@ -6,7 +6,8 @@
  * checking if it is greater than 0 then it is positive
  * otherwise it is equal zero then it is 0
  * otherwise it is negative
- * Return : 0 (success)
+ *
+ * Return: 0 (success)
  */
 int main(void)
 {
