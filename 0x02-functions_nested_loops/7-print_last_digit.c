@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-  * _print_last_digit - return the lastdigit of an integer
+  * print_last_digit - return the lastdigit of an integer
   * @n: parameter that passed to the program
-  * Return: n for pos and 0 for zero and -n.
+  * a variable var to print the last digit
+  * Return: the last digit and change negative to pos..
   */
 int print_last_digit(int n)
 {
