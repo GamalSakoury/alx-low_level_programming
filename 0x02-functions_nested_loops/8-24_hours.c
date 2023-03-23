@@ -31,12 +31,12 @@ void jack_bauer(void)
 			k = 0;
 			j = j + 1;
 		}
-		if (j == 4)
+		if (j == 10)
 		{
 			j = 0;
 			i = i + 1;
 		}
-		if (i == 3)
+		if (i == 2 && j == 4)
 		{
 			break;
 		}
