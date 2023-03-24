@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _isupper - A function that checks for a digit (0 through 9).
+  * _isdigit - A function that checks for a digit (0 through 9).
   * @c: the passing parameter.
   * checking if the argument is between (48 and 53).
   * else then it will be otherwise.
@@ -9,7 +9,7 @@
   */
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= 48 && c <= 57)
 		return (1);
 	else
 		return (0);
