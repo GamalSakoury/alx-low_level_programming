@@ -2,7 +2,7 @@
 
 /**
   * rev_string - A function that reverses a string.
-  * @s: parameter.
+  * @s: parameter passed.
   * Return: empty.
   */
 
@@ -16,12 +16,16 @@ void rev_string(char *s)
 		c++;
 	i = 0;
 	j = c - 1;
-	while (i != j)
+	while (1)
 	{
 		swap = s[i];
 		s[i] = s[j];
 		s[j] = swap;
 		i++;
+		if (i == j)
+			break;
 		j--;
+		if (i == j)
+			break;
 	}
 }
