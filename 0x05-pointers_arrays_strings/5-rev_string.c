@@ -16,16 +16,22 @@ void rev_string(char *s)
 		c++;
 	i = 0;
 	j = c - 1;
-	while (1)
+	if (c == 1)
 	{
-		swap = s[i];
-		s[i] = s[j];
-		s[j] = swap;
-		i++;
-		if (i == j)
-			break;
-		j--;
-		if (i == j)
-			break;
+		_putchar('\n');
 	}
+	else
+	{
+		while (1)
+		{
+			swap = s[i];
+			s[i] = s[j];
+			s[j] = swap;
+			i++;
+			if (i == j)
+				break;
+			j--;
+			if (i == j)
+				break;
+		}
 }
