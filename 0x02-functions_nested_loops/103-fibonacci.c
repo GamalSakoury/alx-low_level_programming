@@ -1,32 +1,31 @@
 #include <stdio.h>
 
 /**
-  * main -Check the code.
-  *
-  * Return: 0 always.
+  * main - finds and prints the sum of the even-valued terms
+  * followed by a new line
+  * Return: Always 0 (Success)
   */
-
 int main(void)
 {
-	int i, s;
-	long int t1, t2;
-	long int nextTerm;
+	int i;
+	unsigned long int j, k, next, sum;
 
-	t1 = 1;
-	t2 = 2;
-	s = 0;
-	nextTerm = t1 + t2;
-	printf("%ld, %ld", t1, t2);
-	for (i = 3; i <= 10; ++i)
+	j = 1;
+	k = 2;
+	sum = 0;
+
+	for (i = 1; i <= 33; ++i)
 	{
-		printf(", %ld", nextTerm);
-		t1 = t2;
-		t2 = nextTerm;
-		if (nextTerm % 2 == 0 && nextTerm < 4000000)
-			s = s + nextTerm;
-		nextTerm = t1 + t2;
+		if (j < 4000000 && (j % 2) == 0)
+		{
+			sum = sum + j;
+		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	printf("\n%d\n", s + 2);
+
+	printf("%lu\n", sum);
 
 	return (0);
 }
