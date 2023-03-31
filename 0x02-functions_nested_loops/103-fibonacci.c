@@ -22,7 +22,7 @@ int main(void)
 		printf(", %ld", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
-		if (nextTerm % 2 == 0)
+		if (nextTerm % 2 == 0 && nextTerm < 4000000)
 			s = s + nextTerm;
 		nextTerm = t1 + t2;
 	}
