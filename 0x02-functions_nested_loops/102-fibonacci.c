@@ -9,8 +9,8 @@
 int main(void)
 {
 	int i;
-	int t1, t2;
-	int nextTerm;
+	long int t1, t2;
+	long int nextTerm;
 
 	t1 = 1;
 	t2 = 2;
