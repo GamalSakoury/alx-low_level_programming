@@ -16,7 +16,7 @@ int main(void)
 	t2 = 2;
 	nextTerm = t1 + t2;
 	printf("%d, %d", t1, t2);
-	for (i = 3; i <= 10; ++i)
+	for (i = 3; i <= 50; ++i)
 	{
 		printf(", %d", nextTerm);
 		t1 = t2;
