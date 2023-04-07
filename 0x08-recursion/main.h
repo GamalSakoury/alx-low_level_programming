@@ -1,3 +1,5 @@
+int divisors(int n, int m);
+int tmp_prime(int n, int i);
 int _putchar(char c);
 int _sqrt(int n, int i);
 int is_palindrome(char *s);
