@@ -9,7 +9,7 @@
   * Return: NULL or duplicate string.
   */
 
-*str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	unsigned int size1, size2;
 	unsigned i, j;
